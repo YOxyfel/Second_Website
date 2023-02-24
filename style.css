@@ -142,18 +142,18 @@ p
 
 #p1
 {
-    font-size: 1.2vw;
+    font-size: clamp(16px, 2vw, 23px);
     text-align: left; 
     margin-left: 60%;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 #p2
 {
-    font-size: 1.2vw;
+    font-size: clamp(16px, 2vw, 23px);
     text-align: left; 
     margin-left: 25%;
-    margin-right: 55%;
+    margin-right: 40%;
 }
 
 .help

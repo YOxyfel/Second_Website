@@ -15,7 +15,6 @@
 div
 {
     background-color: #E4F9F5;
-    text-align: center;
     width: 100%; 
     height: 800px;
 }
@@ -33,12 +32,13 @@ div
 .div2 {height: 2000px;} 
 .div3 {background-color: #cfe7e3; height: 150px; text-align: start;}
 .divup {position:fixed; height: 70px; color: black; text-align: left;}
+.div5 {background-color: none; width: 0; height: 0;}
 
 h1
 {
     padding-top: 260px;
     padding-bottom: 20px; 
-    font-size: 65px;
+    font-size: 75px;
     color:#30E3CA;
 }
 
@@ -79,15 +79,6 @@ a:active { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:link { text-decoration: none; }
 
-img
-{
-    position: absolute; 
-    left: 0%; 
-    top: 160px; 
-    width: 150px; 
-    height: 150px; 
-    background: none;
-}
 
 .br
 {
@@ -113,16 +104,6 @@ hr
     margin:auto;
 }
 
-#yane
-{
-    max-width: 10%; 
-    border-radius: 50%;
-    position: absolute; 
-    left: 45%;
-    top: 1000px; 
-    width: 200px; 
-    height: 200px;
-}
 
 p
 {
@@ -142,24 +123,26 @@ p
     font-size: 25px;
 }
 
-#develop
-{
-    font-size: 25px;
-    text-align: left; 
-    padding-left: 25%; 
-    padding-top: 90px;
-}
-
 #design
 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     padding-left: 60%;
     padding-top: 120px;
 }
 
+#develop
+{
+    font-size: 30px;
+    text-align: left; 
+    padding-left: 25%; 
+    padding-top: 90px;
+}
+
+
 #p1
 {
+    font-size: 1.2vw;
     text-align: left; 
     margin-left: 60%;
     margin-right: 20%;
@@ -167,6 +150,7 @@ p
 
 #p2
 {
+    font-size: 1.2vw;
     text-align: left; 
     margin-left: 25%;
     margin-right: 55%;

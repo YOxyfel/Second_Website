@@ -19,7 +19,7 @@ div
     height: 800px;
 }
 
-.div1, .div2, .div3
+.div1, .div2, .div3, .divup
 {
     background-color: white;
     text-align: center;
@@ -31,6 +31,7 @@ div
 .div1 {background-color: #E4F9F5;}
 .div2 {height: 2000px;} 
 .div3 {background-color: #cfe7e3; height: 150px; text-align: start;}
+.divup {position:fixed; height: 70px; color: black; text-align: left;}
 
 h1
 {
